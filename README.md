@@ -25,6 +25,11 @@ Currently we are working on Indonesian Based Sign Languange (SIBI). This project
 4. Customize function </br> </br>
 If you want to customize the usage of program, you can change the parameter of `read_video` function in `main.py`. Currently there are two pretrained model for sign language gestures. Each were implemented using torch and keras. Here is the snippets of the `read_video` function
 
+5. Dataset
+```
+  https://drive.google.com/drive/folders/1-QwXaY6xXKpfRAM8RIUgOus4zqP4D-Vu?usp=sharing
+```
+
 ```
 read_video(model_path:str,
            camera = 0,
